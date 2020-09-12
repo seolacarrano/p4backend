@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import django_heroku
-#import env as env
+# import env as env
 import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -95,7 +95,6 @@ DATABASES = {
 
 }
 
-
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
@@ -146,7 +145,6 @@ STATIC_URL = '/static/'
 
 django_heroku.settings(locals())
 
-
 env = environ.Env()
 # reading .env file
-environ.Env.read_env("ENV_VARIABLE")
+environ.Env.read_env()
