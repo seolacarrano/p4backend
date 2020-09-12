@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import django_heroku
-import env as env
+#import env as env
 import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -77,7 +77,21 @@ WSGI_APPLICATION = 'p4backend.wsgi.application'
 
 DATABASES = {
 
-    'default': env.db()
+    'default': {
+
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+        'NAME': 'test',
+
+        'USER': 'test',
+
+        'PASSWORD': 'test',
+
+        'HOST': 'localhost',
+
+        'PORT': '5432',
+
+    }
 
 }
 
