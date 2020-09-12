@@ -75,9 +75,7 @@ WSGI_APPLICATION = 'p4backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': env.db()
-}
+DATABASES = dict(default=env.db())
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
