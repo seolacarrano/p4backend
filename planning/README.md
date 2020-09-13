@@ -18,7 +18,7 @@
 For the unit04 project, I'm creating a wrong answer note. Users sign up and login with a custom username and password and then are taken to a mobile, tablet, and desktop application where they can add a subject. In each subject, they can add a wrong answer note. Each user can create, read, update, and delete their note.
 
 ## Google Sheet
-[Google Sheet](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0) 
+[Google Sheet](https://docs.google.com/spreadsheets/d/1MiYUM5Rr0hr_9kbYVNgYzxu88jngsMA9udl1Ox-z7Vw/edit#gid=0) 
 
 ## Wireframes
 
@@ -52,18 +52,18 @@ For the unit04 project, I'm creating a wrong answer note. Users sign up and logi
 | --- | :---: |  :---: | :---: | :---: |
 | A | Create category model | H | 1hr | -hr |
 | B | Create note model | H | 1hr | -hr |
-| C | Create category controller | H | 3hrs | -hr |
-| D | Create note controller  | H | 3hrs | -hr |
-| E | Test and debug controllers locally | H | 5hrs | -hr |
+| C | Create category view | H | 3hrs | -hr |
+| D | Create note view | H | 3hrs | -hr |
+| E | Test and debug view locally | H | 5hrs | -hr |
 | F | Deployment | H | 1hr | -hr |
-| G | Test and debug controllers remotely  | H | 5hrs | -hr |
+| G | Test and debug view remotely  | H | 5hrs | -hr |
 | - | Total | - | 19hrs | -hrs |
 
 #### PostMVP
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
 | A | Create image note model | L | 1hr | -hr |
-| B | Create image note controller | L | 3hrs | -hr |
+| B | Create image note view | L | 3hrs | -hr |
 | - | Total | - | 4hrs | -hrs |
 
 ## Additional Libraries
