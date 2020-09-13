@@ -29,25 +29,19 @@ For the unit04 project, I'm creating a wrong answer note. Users sign up and logi
 
 ## Time/Priority Matrix 
 
-- [MVP](https://res.cloudinary.com/dqduwnrb1/image/upload/v1600017836/p4_front_Time_Priority_Matrix_vw0mro.jpg)
+- [MVP](https://res.cloudinary.com/dqduwnrb1/image/upload/v1600019904/p4_front_Time_Priority_Matrix_1_jqyfal.jpg)
 
 ### MVP/PostMVP 
 
 #### MVP
-- Create function to request data and populate for all pages
-- Create function to create new data for all pages
-- Create function to delete data for all pages
-- Create function to edit data on all pages
-- Build UI incorporating functions with Vue
-- Make hamburger menu
-- Make it responsive to different screen sizes (mobile, tablet, and desktop)
-- Render API on frontend application
+- Proper authentication and authorization for login
+- Create models and migration files for category, and note
+- Create CRUD functionalities for category, and note
+- Test all routes
+- Deploy to Heroku
 
 #### PostMVP 
-- Make hover effect
-- Add button shadow effects
-- Add a landing page 
-
+- Add model and migration file for image notes 
 
 
 ## Functional Components
@@ -56,38 +50,26 @@ For the unit04 project, I'm creating a wrong answer note. Users sign up and logi
 
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | :---: |  :---: | :---: | :---: |
-| A | Wireframe | H | 1hr | -hr |
-| B | Hamburger Menu | H | 1hr | -hr |
-| C | Login HTML & CSS | H | 3hrs | -hr |
-| D | Category page HTML & CSS | H | 3hr | -hr |
-| E | Note page HTML & CSS | H | 3hrs | -hr |
-| F | Vue Research | H | 5hrs | -hr |
-| G | Login Implementation | H | 5hrs | -hr |
-| H | Read Function for Category | H | 3hrs | -hr |
-| I | Update Function for Category | H | 3hrs | -hr |
-| J | Delete Function for Category | H | 3hrs | -hr |
-| K | Create Function for Note | H | 2hrs | -hr |
-| L | Read Function for Note | H | 2hrs | -hr |
-| M | Update Function for Note | H | 2hrs | -hr |
-| N | Delete Function for List | H | 2hr | -hr |
-| O | Login HTML/CSS Debugging | H | 3hrs | -hr |
-| P | Category HTML/CSS Debugging | H | 3hrs | -hr |
-| Q | Note HTML/CSS Debugging | H | 3hrs | -hr |
-| R | Blackbox Testing & Deployment | H | 3hrs | -hr |
-| - | Total | - | 50hrs | -hrs |
+| A | Create category model | H | 1hr | -hr |
+| B | Create note model | H | 1hr | -hr |
+| C | Create category controller | H | 3hrs | -hr |
+| D | Create note controller  | H | 3hrs | -hr |
+| E | Test and debug controllers locally | H | 5hrs | -hr |
+| F | Deployment | H | 1hr | -hr |
+| G | Test and debug controllers remotely  | H | 5hrs | -hr |
+| - | Total | - | 19hrs | -hrs |
 
 #### PostMVP
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| A | Hover effect | L | 1hr | -hr |
-| B | Add button shadow effects | L | 1hr | -hr |
-| C | Landing Page | M | 3hrs | -hr |
-| - | Total | - | 5hrs | -hrs |
+| A | Create image note model | L | 1hr | -hr |
+| B | Create image note controller | L | 3hrs | -hr |
+| - | Total | - | 4hrs | -hrs |
 
 ## Additional Libraries
-- [Vue](https://vuejs.org)
-- [Bootstrap](https://getbootstrap.com/)
-- [jQuery](https://jquery.com/)
+- [JWT](https://jwt.io/)
+- [Django](https://www.djangoproject.com/)
+
 
 ## Code Snippets
 ```
@@ -99,3 +81,4 @@ For the unit04 project, I'm creating a wrong answer note. Users sign up and logi
 
 **ERROR**:               
 **RESOLUTION**: 
+
