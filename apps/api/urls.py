@@ -2,6 +2,7 @@ from django.urls import path, include
 from django.conf.urls import url
 from rest_framework import routers
 from apps.api.views import CategoryViewSet, CategoryNotes, SingleCategoryNote, NoteViewSet
+
 router = routers.DefaultRouter()
 router.register('categories', CategoryViewSet, basename='categories')
 router.register('notes', NoteViewSet, basename='notes')
