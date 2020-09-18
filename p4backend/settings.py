@@ -56,9 +56,9 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
-CORS_ORIGIN_WHITELIST = ['http://localhost:8080'],
+CORS_ORIGIN_WHITELIST = ['http://localhost:8080']
 # If this is used, then not need to use `CORS_ORIGIN_ALLOW_ALL = True`
-CORS_ORIGIN_REGEX_WHITELIST = ['http://localhost:8080'],
+CORS_ORIGIN_REGEX_WHITELIST = ['http://localhost:8080']
 
 ROOT_URLCONF = 'p4backend.urls'
 
