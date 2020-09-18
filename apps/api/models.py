@@ -12,6 +12,7 @@ class Category(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)   # when it is set, it freeze the entire column
     updated_at = models.DateTimeField(auto_now=True)       # everytime update a particular row
 
+
     def __str__(self):
         return self.title
 

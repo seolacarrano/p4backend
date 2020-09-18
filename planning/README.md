@@ -55,9 +55,9 @@ For the unit04 project, I'm creating a wrong answer note. Users sign up and logi
 | C | Create category view | H | 2hrs | 1hr |
 | D | Create note view | H | 2hrs | 1hr |
 | E | Test and debug view locally | H | 3hrs | 1hr |
-| F | Deployment | H | 1hr | 0.5hr |
+| F | Deployment | H | 1hr | 1hr |
 | G | Test and debug view remotely  | H | 3hrs | 1hr |
-| - | Total | - | 13hrs | -hrs |
+| - | Total | - | 13hrs | 6hrs |
 
 #### PostMVP
 | Letter | Component | Priority | Estimated Time | Time Invested |
