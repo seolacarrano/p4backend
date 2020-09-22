@@ -81,4 +81,9 @@ For the unit04 project, I'm creating a wrong answer note. Users sign up and logi
 
 **ERROR**: I wasn't able to work on Heroku             
 **RESOLUTION**: I reset the data, and migrate to Heroku again
+```
+heroku pg:reset --app="sap4backend"
+heroku run python manage.py migrate --app="sap4backend"
+heroku run python manage.py createsuperuser --app="sap4backend"
+```
 
