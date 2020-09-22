@@ -9,9 +9,9 @@
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
-|Day 2| Working RestAPI | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 2| Working RestAPI | Ccomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches and Present | Incomplete
 
 ## Project Description
@@ -79,6 +79,6 @@ For the unit04 project, I'm creating a wrong answer note. Users sign up and logi
 
 ## Issues and Resolutions
 
-**ERROR**:               
-**RESOLUTION**: 
+**ERROR**: I wasn't able to work on Heroku             
+**RESOLUTION**: I reset the data, and migrate to Heroku again
 
