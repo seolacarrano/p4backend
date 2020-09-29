@@ -4,7 +4,7 @@
 - [Link](https://sa-wrong-answer-note.netlify.app/#)
 
 ## Frontend respository
-- [frontend] (https://github.com/seolacarrano/p4frontend)
+- [frontend](https://github.com/seolacarrano/p4frontend)
 
 ## Project Schedule
 
