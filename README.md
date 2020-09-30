@@ -74,12 +74,6 @@ For the unit04 project, I'm creating a wrong answer note. Users sign up and logi
 - [Django](https://www.djangoproject.com/)
 
 
-## Code Snippets
-```
-
-```
-
-
 ## Issues and Resolutions
 
 **ERROR**: I wasn't able to work on Heroku             
